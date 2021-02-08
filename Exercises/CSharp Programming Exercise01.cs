@@ -6,6 +6,8 @@ namespace progex01
     {
         static void Main(string[] args)
         {
+
+            
             Console.WriteLine("\nPart 1, circumference and area of a circle.");
             Console.WriteLine("Enter an integer for the radius: ");
             string strradius = Console.ReadLine();
@@ -43,5 +45,7 @@ namespace progex01
             Console.WriteLine($"The positive solution is {positive_num / denominator}");
             Console.WriteLine($"The negative solutiion is {negative_num / denominator}");
         }
+
+
     }
 }
