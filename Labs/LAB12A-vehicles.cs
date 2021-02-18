@@ -64,15 +64,8 @@ namespace Vehicles
             }
         }
     }
-}
-
-
-
-
-
-namespace Vehicles 
-{
-    class Airplane : Vehicle
+	
+	class Airplane : Vehicle
     {
         public void TakeOff() 
         { 
@@ -88,19 +81,8 @@ namespace Vehicles
             Console.WriteLine("Flying"); 
         }
     }
-}
-
-
-
-
-
-
-
-
-
-namespace Vehicles
-{
-    class Car : Vehicle
+	
+	class Car : Vehicle
     {
         public void Accelerate() 
         { 
@@ -116,16 +98,9 @@ namespace Vehicles
             Console.WriteLine("Motoring"); 
         }
     }
-}
-
-
-
-
-
-
-namespace Vehicles
-{
-    class Vehicle
+	
+	
+	class Vehicle
     {
         public void StartEngine(string noiseToMakeWhenStarting) 
         { 
@@ -141,16 +116,8 @@ namespace Vehicles
             Console.WriteLine("Default implementation of the Drive method"); 
         }
     }
-}
-
-
-
-
-
-
-namespace Vehicles
-{
-    class Motorcycle : Vehicle
+	
+	class Motorcycle : Vehicle
     {
         internal void Accelerate()
         {
@@ -168,6 +135,7 @@ namespace Vehicles
         }
     }
 }
+
 
 
 
