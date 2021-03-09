@@ -8,14 +8,13 @@
 ## 1. Give five examples (using valid C# code) of the five bitwise operators listed in the text.
 
 ```c#
+
     uint number = 0;
     uint example1 = ~number;     // NOT(~): result will be 4,294,967,295
     unit example2 =  (4 << 2);   // Left-Shift(<<):  result will be 16;
     uint example3 = 2 | 4;       // OR(|): result will be 6.
     unit example4 = 2 & 4;       // AND(&): result will be 0.
     unit example5 = 2 ^ 4;       // XOR(^): result will be 6.
-    
-
 
 ```
 
